@@ -1,0 +1,103 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    
+    text-align: justify;
+    
+}
+.pink-highlight{
+    color: deeppink;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.header{
+        background-image: url("images/header-bg.png");
+        background-repeat: no-repeat;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+        background-repeat: no-repeat;
+}
+.work-area{
+    text-align: center;
+    background-image: url("images/latest-work-bg.png");
+        background-repeat: no-repeat;
+}
+section{
+    height: 450px;
+    padding-bottom:150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( pink, deeppink);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.column{
+    float: left;
+    width: 29.33%;
+    padding: 2px;
+    magine:auto;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .client-opinion{
+      text-align: center;
+  }
+
+.client-opinion{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+
+.client-opinion p{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+.ceo{
+    width: 500px;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    margin:auto;
+}
+
+.mail{
+  background-color: deeppink;
+  width: 500px;
+  border: none;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  margin:auto;
+  color: white;
+}
+#msg{
+    font-size: 10px;
+}
